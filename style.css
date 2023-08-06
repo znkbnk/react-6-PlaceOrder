@@ -1,0 +1,72 @@
+/* PlaceOrder.css */
+
+/* Styling for the ShowItems component */
+.show-items {
+  margin-bottom: 20px;
+}
+
+.show-items .item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.show-items .item input {
+  margin-left: 10px;
+  width: 40px;
+  text-align: center;
+}
+
+/* Styling for the Payments component */
+.payments {
+  margin-bottom: 20px;
+}
+
+.payments label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Styling for the Address component */
+.address {
+  margin-bottom: 20px;
+}
+
+.address label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.address input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+/* Styling for the PlaceOrderAction component */
+.place-order-action {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.place-order-action .summary-item {
+  margin-bottom: 5px;
+}
+
+.place-order-action .summary-label {
+  font-weight: bold;
+}
+
+/* Styling for the SubmitButton component */
+.submit-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
