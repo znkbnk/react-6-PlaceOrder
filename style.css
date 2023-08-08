@@ -1,72 +1,73 @@
-/* PlaceOrder.css */
+/* src/App.css */
 
-/* Styling for the ShowItems component */
-.show-items {
-  margin-bottom: 20px;
+/* Reset some default margins and paddings */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
 }
 
-.show-items .item {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-.show-items .item input {
-  margin-left: 10px;
-  width: 40px;
+/* Apply some basic styling to the app layout */
+.App {
   text-align: center;
+  font-family: Arial, sans-serif;
 }
 
-/* Styling for the Payments component */
-.payments {
-  margin-bottom: 20px;
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
 }
 
-.payments label {
-  display: block;
-  margin-bottom: 10px;
+.App-main {
+  padding: 20px;
 }
 
-/* Styling for the Address component */
-.address {
-  margin-bottom: 20px;
-}
-
-.address label {
-  display: block;
-  margin-bottom: 5px;
-}
-
-.address input {
-  width: 100%;
-  padding: 5px;
-  margin-bottom: 10px;
-}
-
-/* Styling for the PlaceOrderAction component */
-.place-order-action {
-  border: 1px solid #ccc;
+.App-footer {
+  background-color: #282c34;
   padding: 10px;
+  color: white;
 }
 
-.place-order-action .summary-item {
-  margin-bottom: 5px;
+/* Style the components */
+ul {
+  list-style: none;
+  padding-left: 0;
 }
 
-.place-order-action .summary-label {
-  font-weight: bold;
+li {
+  margin-bottom: 10px;
 }
 
-/* Styling for the SubmitButton component */
-.submit-button {
-  background-color: #007bff;
-  color: #fff;
+input[type="number"] {
+  width: 40px;
+  padding: 5px;
+}
+
+select {
+  padding: 5px;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+button {
   padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
   border: none;
-  border-radius: 5px;
   cursor: pointer;
 }
 
-.submit-button:hover {
+button:hover {
   background-color: #0056b3;
 }
